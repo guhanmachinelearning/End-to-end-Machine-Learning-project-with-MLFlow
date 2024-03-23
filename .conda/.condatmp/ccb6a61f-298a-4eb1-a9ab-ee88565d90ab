@@ -1,0 +1,13 @@
+prefix=d:/Guhan/Machine_Learning/Projects/mlflow/End-to-end-Machine-Learning-project-with-MLFlow/.conda/Library
+exec_prefix=d:/Guhan/Machine_Learning/Projects/mlflow/End-to-end-Machine-Learning-project-with-MLFlow/.conda/Library
+libdir=d:/Guhan/Machine_Learning/Projects/mlflow/End-to-end-Machine-Learning-project-with-MLFlow/.conda/Library/lib
+sharedlibdir=d:/Guhan/Machine_Learning/Projects/mlflow/End-to-end-Machine-Learning-project-with-MLFlow/.conda/Library/lib
+includedir=d:/Guhan/Machine_Learning/Projects/mlflow/End-to-end-Machine-Learning-project-with-MLFlow/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
